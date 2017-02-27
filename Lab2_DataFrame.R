@@ -54,3 +54,6 @@ myCars
  myCars$combination <- scale(myCars$mpg) + scale(myCars$hp)
  # get the index of maximum combination first, and then get its row name
  row.names(myCars)[which.max(myCars$combination)]
+
+ 
+ ## new line
